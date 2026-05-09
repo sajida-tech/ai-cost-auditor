@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>AI Cost Auditor Pro</title>
+
+  <link rel="stylesheet" href="style.css">
+
+  <!-- Chart.js -->
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+
+<body>
+
+<div class="container">
+
+  <h1>💰 AI Cost Auditor Pro</h1>
+
+  <div class="card">
+
+    <input type="number" id="cursor" placeholder="Cursor Cost">
+    <input type="number" id="copilot" placeholder="Copilot Cost">
+    <input type="number" id="chatgpt" placeholder="ChatGPT Cost">
+    <input type="number" id="claude" placeholder="Claude Cost">
+    <input type="number" id="gemini" placeholder="Gemini Cost">
+
+    <input type="number" id="team" placeholder="Team Size">
+
+    <button onclick="analyze()">Analyze</button>
+    <button onclick="resetForm()">Reset</button>
+    <button onclick="shareReport()">Share Report</button>
+
+    <div id="result"></div>
+
+    <canvas id="chart" width="300" height="200"></canvas>
+
+  </div>
+
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>

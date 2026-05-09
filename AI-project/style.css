@@ -1,0 +1,61 @@
+body{
+  font-family: Arial;
+  background: linear-gradient(to right, #4f46e5, #7c3aed);
+  margin:0;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  height:100vh;
+}
+
+.container{
+  text-align:center;
+  color:white;
+}
+
+.card{
+  background:white;
+  padding:20px;
+  width:340px;
+  border-radius:12px;
+  color:black;
+}
+
+input{
+  width:100%;
+  padding:10px;
+  margin:6px 0;
+  border:1px solid #ddd;
+  border-radius:8px;
+}
+
+button{
+  width:100%;
+  padding:10px;
+  margin-top:8px;
+  border:none;
+  cursor:pointer;
+}
+
+button:nth-of-type(1){
+  background:#4f46e5;
+  color:white;
+}
+
+button:nth-of-type(2){
+  background:#e5e7eb;
+}
+
+button:nth-of-type(3){
+  background:#10b981;
+  color:white;
+}
+
+#result{
+  margin-top:15px;
+  font-weight:bold;
+}
+
+canvas{
+  margin-top:10px;
+}
